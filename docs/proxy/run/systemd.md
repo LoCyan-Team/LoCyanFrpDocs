@@ -17,11 +17,11 @@ chmod +x /opt/lcf/frpc
 
 ```ini
 [Unit]
-Description="LoCyanFrp Client"
+Description=LoCyanFrp Client
 
 [Service]
-WorkingDirectory="/opt/lcf/"
-Exec="/opt/lcf/frpc"
+WorkingDirectory=/opt/lcf/
+Exec=/opt/lcf/frpc
 # 如果你的配置文件名不为 frpc.ini，请手动使用 -c 指定：
 #Exec="/opt/lcf/frpc -c config.ini"
 
