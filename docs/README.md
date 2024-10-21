@@ -10,9 +10,9 @@ bannerBrand:
   description: 致力于解决用户的各种疑难杂症
   buttons:
     - text: 开始阅读
-      link: /main
+      link: /main.html
     - text: 联系我们
-      link: /contact
+      link: /contact.html
       type: plain
 features:
   - title: 免费
