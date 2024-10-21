@@ -3,8 +3,6 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { recoTheme } from 'vuepress-theme-reco'
 import { defineUserConfig } from 'vuepress'
 
-import { removeHtmlExtensionPlugin } from 'vuepress-plugin-remove-html-extension'
-
 export default defineUserConfig({
   base: "/",
   lang: "zh-cn",
