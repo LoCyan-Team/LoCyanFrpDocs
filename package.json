@@ -14,7 +14,6 @@
     "vuepress": "^2.0.0-rc.14"
   },
   "dependencies": {
-    "vuepress-theme-reco": "2.0.0-rc.19",
-    "vuepress-plugin-remove-html-extension": "1.13.0"
+    "vuepress-theme-reco": "2.0.0-rc.19"
   }
 }

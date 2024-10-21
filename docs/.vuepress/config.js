@@ -12,7 +12,6 @@ export default defineUserConfig({
   description: "适用于 LoCyanFrp 的帮助文档",
   head: [['link', { rel: 'icon', href: 'https://www.locyan.cn/favicon.ico' }]],
   bundler: viteBundler(),
-  plugins: [removeHtmlExtensionPlugin()],
   theme: recoTheme({
     navbar: [
       {
