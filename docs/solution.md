@@ -28,7 +28,7 @@
 
 通常为隧道不存在导致，若确认存在，且使用配置文件启动，请尝试重新写入配置文件
 
-### no such host
+### dial tcp: lookup lcf-frps-api.locyanfrp.cn: no such host
 
 更新客户端版本即可
 
@@ -39,10 +39,6 @@
 ### cannot connect to local service \*.\*.\*.\*:\*\*\*\*\*, target machine actively refused it
 
 检查本地服务是否还在运行, 本地设备能否直接连接到 \*.\*.\*.\*:\*\*\*\*\*
-
-### dial tcp: lookup lcf-frps-api.locyanfrp.cn: no such host
-
-请将 Frpc 更新到最新版本
 
 ### EOF
 
