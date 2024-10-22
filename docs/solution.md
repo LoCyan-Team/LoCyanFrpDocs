@@ -6,19 +6,27 @@
 
 服务器错误，或请求发送的数据内容有误
 
-### 418 I'm a teapot
+### 登录就退出
 
-我是茶壶，请不要让我冲咖啡
+注册的时候填写 QQ 数据有误，联系管理员更新你的账户 QQ 数据
 
 ## 隧道启动
 
 ### 403 Forbidden
 
-没有权限连接至此服务器，通常为没有[实人](/app/account#一级认证)，或隧道配置不正确
+没有权限连接至此服务器，有多种可能:
+
+- 没有进行相关认证就使用对应权限节点
+- Frp Token（访问令牌）不正确
+- 隧道配置文件内容不正确
+
+::: info
+我们此前对用户的访问密钥进行了重置，如在之前使用配置文件启动，请更新配置中的访问令牌
+:::
 
 ### 404 Not Found
 
-如果是使用 [Nya LoCyanFrp!](https://nyalcf.1l1.icu/) 启动的隧道，那么请在隧道列表删除自定义配置文件后重试
+通常为隧道不存在导致，若确认存在，且使用配置文件启动，请尝试重新写入配置文件
 
 ### no such host
 
@@ -26,9 +34,9 @@
 
 ### i/o timed out
 
-服务器崩了, [联系管理员](/app/contact.html)等待修复
+服务器崩了, 联系管理员等待修复
 
-### cannot connect to local service *.*.*.*:*****, target machine actively refused it
+### cannot connect to local service \*.\*.\*.\*:\*\*\*\*\*, target machine actively refused it
 
 检查本地服务是否还在运行, 本地设备能否直接连接到 \*.\*.\*.\*:\*\*\*\*\*
 
