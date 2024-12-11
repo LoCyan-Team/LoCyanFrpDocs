@@ -23,7 +23,7 @@ Description=LoCyanFrp Client
 WorkingDirectory=/opt/lcf/
 ExecStart=/opt/lcf/frpc
 # 如果你的配置文件名不为 frpc.ini，请手动使用 -c 指定：
-#ExecStart="/opt/lcf/frpc -c config.ini"
+#ExecStart=/opt/lcf/frpc -c config.ini
 
 [Install]
 WantedBy=network.target
