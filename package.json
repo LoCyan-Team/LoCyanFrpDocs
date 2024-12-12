@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.14",
-    "vuepress": "^2.0.0-rc.14"
+    "@vuepress/bundler-vite": "^2.0.0-rc.18",
+    "vuepress": "^2.0.0-rc.18"
   },
   "dependencies": {
-    "vuepress-theme-reco": "2.0.0-rc.19"
+    "vuepress-theme-reco": "2.0.0-rc.25"
   }
 }
