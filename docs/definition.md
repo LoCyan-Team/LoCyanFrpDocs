@@ -55,3 +55,4 @@
 - Plex
 - Kodi
 - Infuse
+- Lsky Pro
