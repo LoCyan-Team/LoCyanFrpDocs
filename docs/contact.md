@@ -23,7 +23,7 @@
 1. Daiyangcheng (<daiyangcheng@locyan.cn>)
 2. 夏沫花火zzz🌙 (<ami@muska.zip>)
 3. DXCFTDE (<locyan@qq.com>)
-4. 烟墨 (<yanmo@locyan.cn>)
+4. 烟墨 (<yanmo@ymbit.cn>)
 
 ## QQ
 
