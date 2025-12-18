@@ -9,8 +9,8 @@ title: 首页
 
 ## 项目成员
 
-- 夏沫花火zzz🌙 - 现任站长 / 软件开发·面板开发·API 开发
-- Daiyangcheng - 原站长 / API 开发
+- Daiyangcheng - 现任站长 / API 开发
+- 夏沫花火zzz🌙 - 软件开发·面板开发·API 开发
 - DXCFTDE - 协助
 - Zhiyuan - LoCyan-Team 成员 / 软件开发
 - 烟墨 - 协助
