@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/eslint', 'nuxt-umami'],
+  css: ['~/assets/css/main.css'],
   routeRules: {
     '/': { redirect: '/getting-started' },
   },
