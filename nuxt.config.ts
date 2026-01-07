@@ -1,3 +1,5 @@
+import { prerender } from "nitropack";
+
 export default defineNuxtConfig({
   extends: 'docus',
   devtools: { enabled: true },
@@ -8,12 +10,24 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   ogImage: {
     compatibility: {
+      dev: {
+        'chromium': false,
+        'satori': 'wasm',
+        'resvg': 'wasm',
+        'sharp': false,
+      },
       runtime: {
         'chromium': false,
         'satori': 'wasm',
         'resvg': 'wasm',
         'sharp': false,
       },
+      prerender: {
+        'chromium': false,
+        'satori': 'wasm',
+        'resvg': 'wasm',
+        'sharp': false,
+      }
     },
   },
   content: {
