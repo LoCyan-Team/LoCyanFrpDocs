@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   ],
   css: ['~/assets/css/main.css'],
   ogImage: {
-    compatibility: {
+    runtimeCompatibility: {
       bindings: {
         chromium: false,
         resvg: "wasm",
