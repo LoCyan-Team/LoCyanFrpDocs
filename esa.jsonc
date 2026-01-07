@@ -1,6 +1,6 @@
 {
   "assets": {
     "directory": "./dist",
-    "notFoundStrategy": "200.html"
+    "notFoundStrategy": "404Page"
   }
 }
