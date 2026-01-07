@@ -11,7 +11,7 @@ export default {
       protocol: url.protocol,
       method: request.method,
       headers: request.headers,
-      body: undefined,
+      body: request.body,
     });
   },
 };

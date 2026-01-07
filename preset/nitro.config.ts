@@ -11,7 +11,7 @@ export default <NitroPreset>{
     output: {
       entryFileNames: 'index.mjs',
       format: 'esm',
-      inlineDynamicImports: false,
+      inlineDynamicImports: true,
     }
   },
   // alias: {

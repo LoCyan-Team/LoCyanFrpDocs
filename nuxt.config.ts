@@ -19,7 +19,7 @@ export default defineNuxtConfig({
       prerender: {
         'chromium': false,
         'satori': 'wasm',
-        'resvg': false,
+        'resvg': 'wasm',
         'sharp': false,
       }
     },
