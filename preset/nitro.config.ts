@@ -14,4 +14,7 @@ export default <NitroPreset>{
       inlineDynamicImports: false,
     }
   },
+  alias: {
+    '@resvg/resvg-js': '@resvg/resvg-wasm', 
+  }
 }
