@@ -1,5 +1,3 @@
-import { prerender } from "nitropack";
-
 export default defineNuxtConfig({
   extends: 'docus',
   devtools: { enabled: true },
@@ -9,12 +7,15 @@ export default defineNuxtConfig({
   ],
   css: ['~/assets/css/main.css'],
   ogImage: {
-    runtimeCompatibility: {
-      bindings: {
-        chromium: false,
-        resvg: "wasm",
-      },
-    },
+    zeroRuntime: true
+    // compatibility: {
+    //   bindings: {
+    //     'chromium': false,
+    //     'satori': 'wasm',
+    //     'resvg': 'wasm',
+    //     'sharp': false,
+    //   },
+    // },
   },
   content: {
     experimental: { sqliteConnector: 'native' },
