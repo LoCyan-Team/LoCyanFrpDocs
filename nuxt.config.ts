@@ -1,6 +1,10 @@
 export default defineNuxtConfig({
+  extends: 'docus',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', 'nuxt-umami'],
+  modules: [
+    '@nuxt/eslint',
+    'nuxt-umami',
+  ],
   css: ['~/assets/css/main.css'],
   content: {
     experimental: { sqliteConnector: 'native' },
@@ -9,7 +13,11 @@ export default defineNuxtConfig({
     '/': { redirect: '/getting-started' },
   },
   site: {
+    url: "https://docs.locyanfrp.cn",
     name: "LoCyanFrp 帮助文档",
+  },
+  llms: {
+    domain: "https://docs.locyanfrp.cn",
   },
   umami: {
     enabled: true,

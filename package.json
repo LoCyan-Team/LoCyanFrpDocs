@@ -7,10 +7,12 @@
   },
   "dependencies": {
     "@nuxt/eslint": "1.12.1",
-    "better-sqlite3": "^12.2.0",
     "docus": "latest",
     "eslint": "^9.0.0",
     "nuxt": "^4.1.2",
     "nuxt-umami": "3.2.1"
+  },
+  "devDependencies": {
+    "nitropack": "^2.12.9"
   }
 }
