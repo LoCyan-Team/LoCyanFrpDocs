@@ -2,6 +2,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/eslint', 'nuxt-umami'],
   css: ['~/assets/css/main.css'],
+  content: {
+    experimental: { sqliteConnector: 'native' },
+  },
   routeRules: {
     '/': { redirect: '/getting-started' },
   },
