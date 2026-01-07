@@ -7,15 +7,14 @@ export default defineNuxtConfig({
   ],
   css: ['~/assets/css/main.css'],
   ogImage: {
-    zeroRuntime: true
-    // compatibility: {
-    //   bindings: {
-    //     'chromium': false,
-    //     'satori': 'wasm',
-    //     'resvg': 'wasm',
-    //     'sharp': false,
-    //   },
-    // },
+    compatibility: {
+      runtime: {
+        'chromium': false,
+        'satori': 'wasm',
+        'resvg': 'wasm',
+        'sharp': false,
+      },
+    },
   },
   content: {
     experimental: { sqliteConnector: 'native' },
