@@ -10,12 +10,6 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   ogImage: {
     compatibility: {
-      dev: {
-        'chromium': false,
-        'satori': 'wasm',
-        'resvg': 'wasm',
-        'sharp': false,
-      },
       runtime: {
         'chromium': false,
         'satori': 'wasm',
@@ -24,8 +18,8 @@ export default defineNuxtConfig({
       },
       prerender: {
         'chromium': false,
-        'satori': 'wasm-fs',
-        'resvg': 'wasm-fs',
+        'satori': 'wasm',
+        'resvg': 'wasm',
         'sharp': false,
       }
     },
