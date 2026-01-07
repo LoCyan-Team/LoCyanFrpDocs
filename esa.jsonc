@@ -1,7 +1,6 @@
 {
   "entry": ".output/server/index.mjs",
   "assets": {
-    "directory": ".output/public",
-    "notFoundStrategy": "singlePageApplication"
+    "directory": ".output/public"
   }
 }
