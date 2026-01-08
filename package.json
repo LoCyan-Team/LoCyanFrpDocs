@@ -7,9 +7,9 @@
   },
   "dependencies": {
     "@nuxt/eslint": "1.12.1",
-    "docus": "latest",
+    "docus": "https://pkg.pr.new/docus@1245",
     "eslint": "^9.0.0",
-    "nuxt": "^4.1.2",
+    "nuxt": "^4.2.2",
     "nuxt-umami": "3.2.1"
   },
   "devDependencies": {

@@ -10,7 +10,7 @@ export default defineAppConfig({
     url: 'https://github.com/LoCyan-Team/LoCyanFrpDocs',
     branch: 'master',
   },
-  // docus: {
-  //   locale: 'zh-CN',
-  // },
+  docus: {
+    locale: 'zh-CN',
+  },
 })

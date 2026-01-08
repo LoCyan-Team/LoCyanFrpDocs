@@ -1,5 +1,3 @@
-import { prerender } from "nitropack";
-
 export default defineNuxtConfig({
   extends: 'docus',
   devtools: { enabled: true },
@@ -8,27 +6,11 @@ export default defineNuxtConfig({
     'nuxt-umami',
   ],
   css: ['~/assets/css/main.css'],
-  ogImage: {
-    compatibility: {
-      runtime: {
-        'chromium': false,
-        'satori': 'wasm',
-        'resvg': 'wasm',
-        'sharp': false,
-      },
-      prerender: {
-        'chromium': false,
-        'satori': 'wasm',
-        'resvg': 'wasm',
-        'sharp': false,
-      }
-    },
-  },
   content: {
     experimental: { sqliteConnector: 'native' },
   },
-  routeRules: {
-    '/': { redirect: '/getting-started' },
+  docus: {
+    enableLandingPage: false,
   },
   site: {
     url: "https://docs.locyanfrp.cn",
