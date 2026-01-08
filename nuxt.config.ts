@@ -5,25 +5,12 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     'nuxt-umami',
   ],
+  nitro: {
+    preset: 'cloudflare_module'
+  },
   css: ['~/assets/css/main.css'],
   content: {
     experimental: { sqliteConnector: 'native' },
-  },
-  ogImage: {
-    compatibility: {
-      runtime: {
-        'chromium': false,
-        'satori': 'wasm',
-        'resvg': 'wasm',
-        'sharp': false,
-      },
-      prerender: {
-        'chromium': false,
-        'satori': 'wasm',
-        'resvg': 'wasm',
-        'sharp': false,
-      }
-    },
   },
   docus: {
     enableLandingPage: false,
