@@ -9,6 +9,22 @@ export default defineNuxtConfig({
   content: {
     experimental: { sqliteConnector: 'native' },
   },
+  ogImage: {
+    compatibility: {
+      runtime: {
+        'chromium': false,
+        'satori': 'wasm',
+        'resvg': 'wasm',
+        'sharp': false,
+      },
+      prerender: {
+        'chromium': false,
+        'satori': 'wasm',
+        'resvg': 'wasm',
+        'sharp': false,
+      }
+    },
+  },
   docus: {
     enableLandingPage: false,
   },
