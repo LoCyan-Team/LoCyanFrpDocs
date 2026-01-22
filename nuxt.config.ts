@@ -5,9 +5,6 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     'nuxt-umami',
   ],
-  nitro: {
-    preset: 'cloudflare_module'
-  },
   css: ['~/assets/css/main.css'],
   content: {
     experimental: { sqliteConnector: 'native' },
