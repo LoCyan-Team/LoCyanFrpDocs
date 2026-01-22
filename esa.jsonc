@@ -1,6 +1,6 @@
 {
-  "entry": ".output/server/index.mjs",
   "assets": {
-    "directory": ".output/public"
+    "directory": "./dist",
+    "notFoundStrategy": "404Page"
   }
 }

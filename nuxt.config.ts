@@ -7,12 +7,9 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
   ],
   css: ['~/assets/css/main.css'],
-  content: {
-    experimental: { sqliteConnector: 'native' },
-  },
-  routeRules: {
-      '/zh-CN': { redirect: '/zh-cn/getting-started' }
-  },
+  // routeRules: {
+  //     '/zh-CN': { redirect: '/zh-cn/getting-started' }
+  // },
   site: {
     url: "https://docs.locyanfrp.cn",
     name: "LoCyanFrp 帮助文档",
