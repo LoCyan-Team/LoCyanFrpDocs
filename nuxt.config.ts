@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     experimental: { sqliteConnector: 'native' },
   },
   routeRules: {
-      '/': { redirect: '/getting-started' }
+      '/zh-CN': { redirect: '/zh-cn/getting-started' }
   },
   site: {
     url: "https://docs.locyanfrp.cn",
