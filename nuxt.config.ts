@@ -7,9 +7,9 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
   ],
   css: ['~/assets/css/main.css'],
-  content: {
-    experimental: { sqliteConnector: 'native' },
-  },
+  // content: {
+  //   experimental: { sqliteConnector: 'native' },
+  // },
   routeRules: {
       '/zh-CN': { redirect: '/zh-cn/getting-started' }
   },
