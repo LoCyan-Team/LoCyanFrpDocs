@@ -1,6 +1,8 @@
-::div{.flex.flex-col.justify-center.min-h-\[calc\(100vh-200px\)\]}
+---
+title: 首页
+---
 
-::u-page-hero
+::u-page-hero{class="flex flex-col justify-center min-h-[calc(100vh-var(--header-height)-150px)] py-0"}
 #title
 LoCyanFrp 帮助文档
 
@@ -23,11 +25,10 @@ LoCyanFrp 帮助文档
   color: neutral
   icon: i-lucide-code-2
   size: xl
+  target: _blank
   to: https://api-docs.locyanfrp.cn
   variant: outline
   ---
   API 文档
   :::
-::
-
 ::
