@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     'nuxt-umami',
+    '@nuxtjs/i18n',
   ],
   css: ['~/assets/css/main.css'],
   content: {
@@ -26,4 +27,10 @@ export default defineNuxtConfig({
     autoTrack: true,
     ignoreLocalhost: true,
   },
+  i18n: {
+    defaultLocale: 'zh-CN',
+    locales: [
+      { code: 'zh-CN', name: '简体中文（中国）' },
+    ],
+  }
 })
