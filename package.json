@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "nuxt dev --extends docus",
     "build": "nuxt build --extends docus",
-    "generate": "nuxt generate --extends docus",
+    "generate": "nuxt generate --extends docus && mv ./dist/200.html ./dist/index.html",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
